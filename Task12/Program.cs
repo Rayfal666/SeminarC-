@@ -13,8 +13,8 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 int multiDigit = MultiDigit(number1, number2);
 
 if (multiDigit != 0)
-    Console.WriteLine($"Число не четное,остаток от деления {multiDigit}");
-else Console.WriteLine("Число четное");
+    Console.WriteLine($"Число не кратное,остаток от деления {multiDigit}");
+else Console.WriteLine("Число кратное");
 
 
 
